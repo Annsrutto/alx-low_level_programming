@@ -2,8 +2,8 @@
 
 /**
  * _isupper -prog checks for uppercase character
- * @c - variable text
- * Return: Always 0
+ * @c - char to check
+ * Return: 0 or 1
  */
 
 int _isupper(int c)
