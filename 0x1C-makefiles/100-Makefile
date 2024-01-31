@@ -9,6 +9,8 @@ all: $(NAME)
 $(NAME): $(SRC) m.h
 	$(CC) $(CFLAGS) -o $(NAME) $(SRC)
 
+.PHONY: clean fclean oclean re
+
 clean:
 	@find . -type f \( -name '*~' -o -name '#*#' \) -delete
 	@find . -type f -name '$(NAME)' -delete
